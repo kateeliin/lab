@@ -1,0 +1,48 @@
+body {
+    background-color: pink;
+}
+h1{
+    font-size: 25px;
+    color: #3e2723d4;
+}
+h2 {
+    font-size: 16 px;
+    color: #3e2723d4;
+}
+p {
+    font-size: 14px;
+    color: #3e2723;
+}
+li {
+    margin: 20px;
+}
+ol, ul {
+    padding: 10px;
+    color: #3e2723;
+}
+.content {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin: 10px;
+}
+.content-left {
+    padding: 20px;
+   border: 1px solid #3e2723; 
+   width: 30%;
+   background: rgb(174, 173, 173);
+   margin: 10px;
+   border-radius: 10px;
+}
+.conten-right {
+    padding: 20px;
+    border: 1px solid gray; 
+    width: 40%;
+    background: rgba(60, 48, 48, 0.574);
+    margin: 10px;
+    border-radius: 10px;
+}
+.cat-dog {
+    width: 300px;
+    height: 400px;
+}
