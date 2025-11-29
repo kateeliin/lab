@@ -30,19 +30,91 @@ margin: 10px;
     padding: 20px;
    border: 1px solid #3e2723; 
    width: 30%;
-   background: rgb(174, 173, 173);
+   background: rgb(251, 235, 216);
    margin: 10px;
    border-radius: 10px;
 }
 .conten-right {
     padding: 20px;
-    border: 1px solid gray; 
-    width: 40%;
-    background: rgba(60, 48, 48, 0.574);
+    border: 5px solid #3e2723; 
+    width: 80%;
+    background: rgba(251, 235, 216);
     margin: 10px;
     border-radius: 10px;
 }
 .cat-dog {
     width: 300px;
     height: 400px;
+}
+.header {
+    background-color: rgb(251, 235, 216);
+    padding: 15px;
+    text-align: right;
+    border: 1px solid pink;
+    border-radius: 10px;
+}
+.block-common {
+    width: 200px;
+    height: 200px;
+}
+.block {
+    width: 200px;
+    height: 200px;
+    background-color: #3e2723;
+    margin: 0 auto;
+}
+.container {
+    background-color:rgb(251, 235, 216);
+}
+.container-2 {
+    background-color:rgb(251, 235, 216);
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+.container-3 {
+    background-color: rgb(251, 235, 216);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.block-2 {
+    background-color: #3e2723;
+    margin: 0 auto;
+}
+.block-3 {
+    width: 200px;
+    height: 200px;
+    background-color: #3e2723;
+    margin: 10px;
+}
+.container-4 {
+    border: 1px solid rgb(251, 235, 216);
+}
+.gray {
+    position: relative;
+    border: 2px solid gray;
+    left: 20px;
+    top: 20px;
+}
+.blush {
+    position: relative;
+    border: 2px solid #ab767b;
+    left: 150px;
+    top: -40px;
+}
+.green {
+    position: relative;
+    border: 2px solid #d4de7e;
+    left: 280px;
+    top: -100px;
+}
+.abs-cat {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+.abs-cat img {
+    width: 100px;
+    height: 100px;
 }
