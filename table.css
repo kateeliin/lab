@@ -1,0 +1,19 @@
+td {
+    padding: 5px;
+}
+th {
+    text-align: left;
+    background-color:#3e2723;
+    color:bisque;
+}
+tr:nth-child(2n) {
+background-color: bisque;
+}
+tr:nth-child(2n+1) {
+    background-color: grey;
+    color:bisque;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
